@@ -28,7 +28,7 @@
 
 ## Obtaining OxygenOS Firmware
 - Complete OTA package of OxygenOS is required for the conversion.
-1. Install OxgenUpdater from Play Store.
+1. Install [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater) from Play Store.
 2. Select OnePlus 13R(IN) as the device.
 3. Enable Advanced Mode in the settings.
 4. Select Stable (full) as Update Method. 
@@ -36,6 +36,7 @@
 
 ## Obtaining ColorOS ```odm.img``` (optional, but recommended)
 - ```odm.img``` from original ColorOS is required for complete compatibility of the camera.
+- For rooted user, now you can install Ace 5 Drivers module instead of flashing odm.img.
 Two option are available to obtain the firmware:
     Option 1. Download the firmware (Easy)
     Option 2. Extract the firmware using DSU Sideloader (Hard)
@@ -107,6 +108,7 @@ Two option are available to obtain the firmware:
 
 ## Flashing ColorOS ```odm.img```
 - This step is optional, but recommended for complete compatibility of the camera.
+- For rooted user, now you can install Ace 5 Drivers module instead of flashing odm.img.
 1. Enable USB debugging and connect your device to PC.
 
 2. Boot into fastbootD mode.
@@ -126,9 +128,11 @@ Two option are available to obtain the firmware:
 
 5. Your device is now fully compatible with the camera.
 
+## Installing driver module
+- If you have rooted your device, you can use Magisk or KernelSU to install [Ace 5 Drivers](https://github.com/Devone127/Ace-5-Drivers) from [@Devone127](https://github.com/Devone127) to complete the camera functions without having to install ColorOS's odm.img
 
 ## For "complete" Conversion (optional)
-- Since```my_company.img```and```my_prelaod.img```are not included in the OTA package, the conversion is not "complete".
+- Since```my_company.img```and```my_preload.img```are not included in the OTA package, the conversion is not "complete".
 - Those files are required for pre-installed apps, but they are not necessary for the device to function.
 - **Note:** The tool adds empty ```my_preload.img``` and ```my_company.img``` files which do not contain any regional apps.
 - If you have those files, you can flash them using the same method as```odm.img```.
@@ -137,5 +141,5 @@ Two option are available to obtain the firmware:
     ```
     ```shell
     fastboot flash my_company my_company.img
-    fastboot flash my_prelaod my_prelaod.img
+    fastboot flash my_preload my_preload.img
     ```

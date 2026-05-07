@@ -15,7 +15,7 @@
 - [Fastboot Firmware Flasher Ver:1.0.1.3](https://t.me/gt3neo5hub/521/269449)
 
 ## 经过测试的设备
-- 一加 Ace5 PKG100 (12GB RAM / 256GB Storage)
+- 一加 Ace5 PKG100 (12GB 内存 / 256GB 存储)
 
 ## 可用的功能
 - 移动网络
@@ -38,4 +38,5 @@
 ## 鸣谢
 - [ROM焼き試験場](https://mitanyan98.hatenablog.com/)
 - [kpgc10kai](https://x.com/kpgc10kai_)
+- [Devone127](https://github.com/Devone127)
 
