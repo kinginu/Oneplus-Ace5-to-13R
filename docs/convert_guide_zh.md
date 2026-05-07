@@ -143,5 +143,5 @@
     ```
     ```shell
     fastboot flash my_company my_company.img
-    fastboot flash my_prelaod my_prelaod.img
+    fastboot flash my_preload my_preload.img
     ```
